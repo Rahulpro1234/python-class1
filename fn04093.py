@@ -1,0 +1,18 @@
+
+def user_module(name,status):
+    print('user module function started')
+    def login():
+        print("LOGIN SUCESS")
+    def logout():
+        print("LOGOUT SUCESS")
+
+    if status == True:
+        return login
+    else:
+        return logout
+    
+inner = user_module('RG',True)
+inner()
+    
+
+    
