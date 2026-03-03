@@ -1,0 +1,4 @@
+.env
+genai_batch/.env
+env/
+__pycache__/

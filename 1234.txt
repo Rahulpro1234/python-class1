@@ -1,0 +1,17 @@
+how will you create a 3 month average sales in dax
+
+have a date dimension table.mark as date table.
+
+date[yearmonth] = EOMONTH(DATE[DATE],0)
+
+TOTALsales=sum(sales[salesamount])
+
+
+
+
+
+
+
+
+
+
