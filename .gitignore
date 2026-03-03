@@ -1,4 +1,12 @@
-.env
-genai_batch/.env
+# Virtual environments
 env/
+prostack/
+genai_batch/prostack/
+venv/
+
+# Python cache
 __pycache__/
+*.pyc
+
+# Environment variables
+.env
